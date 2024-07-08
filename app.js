@@ -60,7 +60,7 @@ app.get('/temperature', async (req, res) => {
     }
 });
 
-const apiKey = 'ce19855db2001006f8a67591ae0dd4c7';
+const apiKey = '';
 const senderAddress = 'SEMAPHORE'; // Replace with your sender name
 
 // Function to generate report of highest and lowest temperature and humidity per day
@@ -96,7 +96,7 @@ const sendSMS = async (message) => {
     try {
         const smsPayload = {
             apikey: apiKey,
-            number: '09773451012', // Replace with the recipient's phone number
+            number: '', // Replace with the recipient's phone number
             message: message,
             sendername: senderAddress // Ensure this matches the approved sender name format
         };
