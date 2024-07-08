@@ -1,5 +1,5 @@
-# temp_monitoring
 # temp_monitoring_backend
 
-#npm install
-#npm start
+npm install
+
+npm start
